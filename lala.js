@@ -35,4 +35,4 @@ function mapUsers(array) {
 }
 
 
-console.log(usersMapped)
+console.log(users)
