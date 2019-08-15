@@ -29,7 +29,7 @@ let usersMapped = [];
 
 function mapUsers(array) {
   for(let i = 0; i < users.length; i++) {
-    usersMapped[i] = {fullname: users[i].name + users[i].surname, id: users[i].id};  
+    usersMapped[i] = {fullname: users[i].name + users[i].surname, id: users[i].id};
   }
   return usersMapped;
 }
