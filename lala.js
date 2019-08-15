@@ -17,7 +17,6 @@ let users = [
   { name: "Mary", age: 28 },
 ];
 
-let userNames = users.map(item => item.name);
-userNames.push(users.map(item => item.age))
+let userNames = users.map(item => item.name, item.age);
 
 console.log(userNames)
