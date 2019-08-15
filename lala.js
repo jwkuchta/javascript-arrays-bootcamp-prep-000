@@ -21,6 +21,13 @@ let john = { name: "John", surname: "Smith", id: 1 };
 let pete = { name: "Pete", surname: "Hunt", id: 2 };
 let mary = { name: "Mary", surname: "Key", id: 3 };
 
-let users = []
+let users = [];
 users.push(john, pete, mary)
 console.log(users)
+
+let usersMapped = [];
+
+for(let i = 0; i < users.length; i++) {
+  usersMapped[i] = {fullname: users[i].name + users[i].surname, id: users[i].id};
+  return usersMapped;
+}
