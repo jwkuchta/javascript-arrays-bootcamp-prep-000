@@ -17,9 +17,9 @@ usersMapped = [
 ]
 */
 
-let john = { name: "John", surname: "Smith", id: 1 };
-let pete = { name: "Pete", surname: "Hunt", id: 2 };
-let mary = { name: "Mary", surname: "Key", id: 3 };
+let john = { name: "John", surname: "Smith", age: 25 };
+let pete = { name: "Pete", surname: "Hunt", age: 35 };
+let mary = { name: "Mary", surname: "Key", age: 45 };
 
 let users = [];
 users.push(john, pete, mary)
@@ -29,7 +29,7 @@ let usersMapped = [];
 
 function mapUsers(array) {
   for(let i = 0; i < users.length; i++) {
-    usersMapped[i] = {fullname: users[i].name + users[i].surname, id: users[i].id};
+    usersMapped[i] = {fullname: users[i].name + users[i].surname, age: users[i].age};
   }
   return usersMapped;
 }
