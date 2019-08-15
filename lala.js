@@ -23,7 +23,7 @@ let mary = { name: "Mary", surname: "Key", id: 3 };
 
 let users = [];
 users.push(john, pete, mary)
-console.log(users)
+//console.log(users)
 
 let usersMapped = [];
 
