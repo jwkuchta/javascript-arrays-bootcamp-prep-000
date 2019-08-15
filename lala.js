@@ -34,5 +34,8 @@ function mapUsers(array) {
   return usersMapped;
 }
 
+function sortByAge(array) {
+  array.sort((a, b) => a.age > b.age? 1: -1)
+};
 
-console.log(mapUsers(users))
+console.log(sortByAge(usersMapped))
