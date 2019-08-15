@@ -1,19 +1,22 @@
-let nums = [1, 3, 8, 19, 45, 4, 6];
+/*You have an array of user objects, each one has user.name. 
+Write the code that converts it into an array of names.
 
-function filterRangeInPlace(arr, a, b) {
+For instance:
 
-  for (let i = 0; i < arr.length; i++) {
-    let val = arr[i];
-    console.log(i);
+let john = { name: "John", age: 25 };
+let pete = { name: "Pete", age: 30 };
+let mary = { name: "Mary", age: 28 };
 
-    if (val < a || val > b) {
-      arr.splice(i, 1);
-      i--;
-      console.log(i);
-      console.log(arr);
-    }
-  }
-  return arr;
-}
+let users = [ john, pete, mary ];
 
-console.log(filterRangeInPlace(nums, 3, 20))
+let names = /* ... your code */
+
+let users = [
+  { name: "John", age: 25 },
+  { name: "Pete", age: 30 },
+  { name: "Mary", age: 28 },
+];
+
+let userNames = users.map(item => item.name);
+
+console.log(userNames)
