@@ -31,3 +31,5 @@ for(let i = 0; i < users.length; i++) {
   usersMapped[i] = {fullname: users[i].name + users[i].surname, id: users[i].id};
   return usersMapped;
 }
+
+console.log(usersMapped)
