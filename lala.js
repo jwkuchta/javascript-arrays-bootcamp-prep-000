@@ -12,5 +12,3 @@ let strings = ["Hare", "Krishna", "Hare", "Krishna",
 let uniqueStrings = string.map((a, b) => a != b)
 
 console.log(uniqueStrings)
-
-
