@@ -22,5 +22,5 @@ let pete = { name: "Pete", surname: "Hunt", id: 2 };
 let mary = { name: "Mary", surname: "Key", id: 3 };
 
 let users = []
-users.push(john)
+users.push(john, pete, mary)
 console.log(users)
