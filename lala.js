@@ -1,22 +1,24 @@
 /*You have an array of user objects, each one has user.name.
-Write the code that converts it into an array of names.
+WriYou have an array of user objects, each one has name, surname and id.
 
-For instance:
+Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
 
-let john = { name: "John", age: 25 };
-let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 28 };
+
 
 let users = [ john, pete, mary ];
 
-let names = /* ... your code */
+let usersMapped = /* ... your code ... */
 
-let users = [
-  { name: "John", age: 25 },
-  { name: "Pete", age: 30 },
-  { name: "Mary", age: 28 },
-];
+/*
+usersMapped = [
+  { fullName: "John Smith", id: 1 },
+  { fullName: "Pete Hunt", id: 2 },
+  { fullName: "Mary Key", id: 3 }
+]
+*/
 
-let userNames = users.map(item => item.name);
+let john = { name: "John", surname: "Smith", id: 1 };
+let pete = { name: "Pete", surname: "Hunt", id: 2 };
+let mary = { name: "Mary", surname: "Key", id: 3 };
 
-console.log(userNames)
+let users = [].push(john, pete, mary)
