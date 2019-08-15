@@ -34,6 +34,8 @@ function mapUsers(array) {
   return usersMapped;
 }
 
+mapUsers(users);
+
 function sortByAge(array) {
   array.sort((a, b) => a.age > b.age? 1: -1);
   return array;
