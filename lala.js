@@ -17,8 +17,8 @@ usersMapped = [
 ]
 */
 
-let john = { name: "John", surname: "Smith", age: 25 };
-let pete = { name: "Pete", surname: "Hunt", age: 35 };
+let john = { name: "John", surname: "Smith", age: 35 };
+let pete = { name: "Pete", surname: "Hunt", age: 25 };
 let mary = { name: "Mary", surname: "Key", age: 45 };
 
 let users = [];
