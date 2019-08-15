@@ -42,3 +42,8 @@ function sortByAge(array) {
 };
 
 console.log(sortByAge(usersMapped))
+
+function getAverageAge(array) {
+  let averageAge = array.reduce((prev, user) => prev = prev + user.age, 0) / array.length;
+  return averageAge;
+}
